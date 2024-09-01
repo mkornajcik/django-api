@@ -1,3 +1,5 @@
+# Django REST Framework API
+
 This project covers everything from the basics of REST API development to advanced features such as permissions, throttling, pagination, filtering, and authentication, including token-based and JWT authentication.
 The goal is to provide a comprehensive understanding of Django REST Framework while building a fully functional backend API.
 
