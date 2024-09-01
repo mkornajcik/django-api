@@ -1,35 +1,49 @@
 This project covers everything from the basics of REST API development to advanced features such as permissions, throttling, pagination, filtering, and authentication, including token-based and JWT authentication.
 The goal is to provide a comprehensive understanding of Django REST Framework while building a fully functional backend API.
 
-1. Admin Access
 
-    Admin Section: http://127.0.0.1:8000/dashboard/
+<b>1. Admin Access</b>
+<ul>
+    <li>Admin Section: http://127.0.0.1:8000/dashboard/</li>
+</ul>
+<br>
 
+<b>2. Accounts</b>
+<ul>
+    <li>Registration: http://127.0.0.1:8000/api/account/register/</li>
+    <li>Login: http://127.0.0.1:8000/api/account/login/</li>
+    <li>Logout: http://127.0.0.1:8000/api/account/logout/</li>
+</ul>
+<br>
 
-2. Accounts
+<b>3. Stream Platforms</b>
+<ul>
+    <li>Create Element & Access List: http://127.0.0.1:8000/api/watch/stream/</li>
+    <li>Access, Update & Destroy Individual Element: http://127.0.0.1:8000/api/watch/stream/&lt;int:streamplatform_id&gt;/</li>
 
-    Registration: http://127.0.0.1:8000/api/account/register/  
-    Login: http://127.0.0.1:8000/api/account/login/  
-    Logout: http://127.0.0.1:8000/api/account/logout/
+</ul>
+<br>
 
+<b>4. Watch List</b>
+<ul>
+    <li>Create & Access List: http://127.0.0.1:8000/api/watch/</li>
+    <li>Access, Update & Destroy Individual Element: http://127.0.0.1:8000/api/watch/&lt;int:movie_id&gt;/</li>
+</ul>
+<br>
 
-3. Stream Platforms
+<b>5. Reviews</b>
+<ul>
+    <li>Create Review For Specific Movie: http://127.0.0.1:8000/api/watch/&lt;int:movie_id&gt;/reviews/create/</li>
+    <li>List Of All Reviews For Specific Movie: http://127.0.0.1:8000/api/watch/&lt;int:movie_id&gt;/reviews/</li>
+    <li>Access, Update & Destroy Individual Review: http://127.0.0.1:8000/api/watch/reviews/&lt;int:review_id&gt;/</li>
+</ul>
+<br>
 
-    Create Element & Access List: http://127.0.0.1:8000/api/watch/stream/  
-    Access, Update & Destroy Individual Element: http://127.0.0.1:8000/api/watch/stream/<int:streamplatform_id>/
-
-
-4. Watch List
-
-    Create & Access List: http://127.0.0.1:8000/api/watch/  
-    Access, Update & Destroy Individual Element: http://127.0.0.1:8000/api/watch/<int:movie_id>/
-
-
-5. Reviews
-
-    Create Review For Specific Movie: http://127.0.0.1:8000/api/watch/<int:movie_id>/reviews/create/  
-    List Of All Reviews For Specific Movie: http://127.0.0.1:8000/api/watch/<int:movie_id>/reviews/  
-    Access, Update & Destroy Individual Review: http://127.0.0.1:8000/api/watch/reviews/<int:review_id>/  
+<b>6. User Review</b>
+<ul>
+    <li>Access All Reviews For Specific User: http://127.0.0.1:8000/api/watch/user-reviews/?username=example</li>
+</ul>
+<br>
 
 
 6. User Review
