@@ -46,8 +46,3 @@ The goal is to provide a comprehensive understanding of Django REST Framework wh
     <li>Access All Reviews For Specific User: http://127.0.0.1:8000/api/watch/user-reviews/?username=example</li>
 </ul>
 <br>
-
-
-6. User Review
-
-    Access All Reviews For Specific User: http://127.0.0.1:8000/api/watch/user-reviews/?username=example
